@@ -3,8 +3,10 @@
 Esta interfaz representa un objeto controlador que le permite cancelar una o más solicitudes web cuando lo desee.
 Puede crear un nuevo AbortController utilizando el constructor ***new AbortController()***. La comunicación con una solicitud DOM se realiza mediante un ***AbortSignal***.
 
-    - npm i
-    - npm start
+```
+npm i
+npm start
+```
 
 Nota: Cuando se llama a *abort()* , la promesa *fetch()* rechaza con un Error de tipo DOMException , con el nombre *AbortError*.
 
